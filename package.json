@@ -1,0 +1,22 @@
+{
+  "name": "alrya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yalnjooj/alrya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yalnjooj/alrya/issues"
+  },
+  "homepage": "https://github.com/yalnjooj/alrya#readme",
+  "dependencies": {
+    "tafgeetjs": "^2.1.0"
+  }
+}

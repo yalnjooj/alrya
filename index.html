@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Normalize Css Template (Render All Elements Normally)-->
+    <link rel="stylesheet" href="css/8.0.1-normalize.css" />
+
+    <!-- Main Css Template -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Alrya</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Start Header -->
+      <header>
+        <div id="date">11-00-2022</div>
+        <div id="ref">BC41562274261666129548604</div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Start body -->
+      <section>
+        Herby certifies that
+        <span id="name">IBRAHIM HRIDOY MD GOLAM MAWLAN</span>
+        ID
+        <span id="id">2431040388</span>
+        maintains a Cureent Account with us, A/C#
+        <span id="AC">11100020027303</span>
+        since
+        <span id="since">07-10/2020</span>
+        and that the balance of this account as of
+        <span id="request">19-10-2022</span>
+        is SAR
+        <span id="mony">698.99</span>
+        (
+        <span id="textMonyFeld">
+          Six Hundred Ninety Eight Saudi Riyals and Ninety Nine
+        </span>
+        Halalas ).
+      </section>
+      <!-- End body -->
+    </div>
+    <form>
+      <button id="edit">تعديل</button>
+      <button id="print">طباعة</button>
+    </form>
+
+    <form class="controal">
+      <label for="clientNameEN">Client Name EN</label>
+      <input type="text" id="clientNameEN" />
+
+      <label for="equal">Equal</label>
+      <input type="text" id="equal" />
+
+      <label for="textMony">Mony Text</label>
+      <textarea id="textMony" cols="30" rows="10"></textarea>
+
+      <input type="submit" value="حفظ" id="save" />
+    </form>
+
+    <script src="main_script.js" type="module"></script>
+  </body>
+</html>

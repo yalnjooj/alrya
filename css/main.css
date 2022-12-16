@@ -1,0 +1,173 @@
+/* @import url('../fonts/ArbFONTS-The-Sans-Plain.otf');
+@import url('../fonts/ArbFONTS-TheSans-Plain.otf'); */
+@font-face {
+    font-family: myFirstFont;
+    src:url("../fonts/ArbFONTS-TheSans-Plain.otf");
+
+}
+
+
+/* Start Variables */
+
+:root {
+    --original-color: #3d0700;
+    --main-color: #281818;
+    --secondary-color1: #b67a54;
+    --bgColor: #e7ded0;
+    --secondary-color2: #cea16c;
+    --out-in-text-color: #f7edd8;
+    --in-text-color: #553128;
+}
+
+/* End Variables */
+
+/********************************************************************************************/
+
+/* Start Global Roles */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-weight: 100;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'myFirstFont', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 210mm;
+    height: 297mm;
+    /* border: 1px solid#281818; */
+    background-image: url("../images/balance_certificate.jpg");
+    background-size: contain;
+}
+/*297 x 210 mm*/
+/*3508 x 2480 px*/
+ul {
+    list-style: none;;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+@media print {
+    @page {
+        margin: 0;
+        padding: 0;
+    }
+    body> form {
+        visibility: hidden;
+        display: none;
+    }
+    .container section {
+        -webkit-print-color-adjust: exact; 
+        -moz-print-color-adjust: exact; 
+        -ms-print-color-adjust: exact; 
+        color-adjust: exact; 
+    }
+}
+
+
+/* @media (min-width: 768px) { 
+    .container {
+        width: 750px;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .container {
+        width: 970px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .container {
+        width: 1170px;
+    }
+ } */
+
+
+/* End Global Roles */
+
+
+
+/********************************************************************************************/
+
+/* Start Form */
+ .controal {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transform: translateY(-979px);
+    background: white;
+    border: solid 2px black;
+    width: 529px;
+    height: 550px;
+ }
+ body> form {
+    margin: 0 auto;
+    transform: translateY(-226px);
+    width: fit-content;    
+ }
+/* End Form */
+/* Start Header */
+
+header {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    transform: translate(289px, 192px);
+    font-size: 13.2px;
+}
+header #date {
+    font-size: 13px;
+    margin-top: -14px;
+    margin-bottom: 14px;
+    background-color: white;
+}
+header #ref {
+    background-color: white;
+}
+/* End Header */
+
+/* Start body */
+
+section {
+    transform: translate(32px, 471px);
+    font-size: 11px;
+    width: 701px;
+    height: 65px;
+    line-height: 2;
+    word-spacing: 1px;
+    background-color: white;
+}
+/* End body */
