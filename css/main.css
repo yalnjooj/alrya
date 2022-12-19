@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 297mm;
     /* border: 1px solid#281818; */
     background-image: url("../images/balance_certificate.jpg");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 /*297 x 210 mm*/
@@ -83,7 +84,7 @@ a {
         visibility: hidden;
         display: none;
     }
-    .container section {
+    .container {
         -webkit-print-color-adjust: exact; 
         -moz-print-color-adjust: exact; 
         -ms-print-color-adjust: exact; 
